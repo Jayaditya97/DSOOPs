@@ -11,7 +11,7 @@ public class basic_try_catch {
             int result = a / b;
             System.out.println("Result = "+ result);
         }
-        catch(Exception e){
+        catch(Exception e){ //throwable
             System.out.println("Wrong value entered. Enter Again");
         }
     }
