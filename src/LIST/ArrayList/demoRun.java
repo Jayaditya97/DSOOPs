@@ -7,10 +7,11 @@ public class demoRun {
     public static void main(String[] args) {
 
         ArrayList List = new ArrayList();
-        List.add(45);
-        List.add("haha");
-        List.add((45.45));
-        List.add(false);
+        List.add(10);
+        List.add(20);
+        List.add(10);
+
+        System.out.println(List);
 
         for(Object o: List) {
             System.out.println(o + " ");
