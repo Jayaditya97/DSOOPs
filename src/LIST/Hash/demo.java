@@ -33,5 +33,5 @@ public class demo {
 
         HashSet<Integer> toRemove = new HashSet<>();
         toRemove.add(10);
-    }
+   }
 }
